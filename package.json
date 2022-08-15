@@ -1,14 +1,14 @@
 {
   "name": "@huskyswap/sdk",
   "license": "MIT",
-  "version": "1.0.5",
-  "description": "🛠 An SDK for building applications on top of VenomSwap.",
+  "version": "1.0.0",
+  "description": "🛠 An SDK for building applications on top of Huskyswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/VenomProtocol/venomswap-sdk.git",
+  "repository": "https://github.com/husky-labs/huskyswap-sdk.git",
   "keywords": [
     "uniswap",
     "ethereum"
