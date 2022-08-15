@@ -106,18 +106,18 @@ export const WETH = {
     'WBNB',
     'Wrapped BNB'
   ),
-  [ChainId.HARMONY_MAINNET]: new Token(
-    ChainId.HARMONY_MAINNET,
-    '0xcF664087a5bB0237a0BAd6742852ec6c8d69A27a',
+  [ChainId.DOGECHAIN_MAINNET]: new Token(
+    ChainId.DOGECHAIN_MAINNET,
+    '0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101',
     18,
-    'WONE',
-    'Wrapped ONE'
+    'WWDOGE',
+    'Wrapped WDOGE'
   ),
-  [ChainId.HARMONY_TESTNET]: new Token(
-    ChainId.HARMONY_TESTNET,
+  [ChainId.DOGECHAIN_TESTNET]: new Token(
+    ChainId.DOGECHAIN_TESTNET,
     '0x7466d7d0C21Fa05F32F5a0Fa27e12bdC06348Ce2',
     18,
-    'WONE',
-    'Wrapped ONE'
+    'WWDOGE',
+    'Wrapped WDOGE'
   )
 }
