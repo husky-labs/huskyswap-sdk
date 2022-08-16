@@ -1,19 +1,19 @@
 {
   "name": "@huskyswap/sdk",
   "license": "MIT",
-  "version": "1.0.6",
-  "description": "🛠 An SDK for building applications on top of Huskyswap.",
+  "version": "1.0.0",
+  "description": "SDK for building applications on top of Huskyswap",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/husky-labs/huskyswap-sdk.git",
+  "repository": "https://github.com/huskyswap/huskyswap-sdk.git",
   "keywords": [
-    "uniswap",
+    "huskyswap",
     "ethereum"
   ],
-  "module": "dist/sdk.esm.js",
+  "module": "dist/v2-sdk.esm.js",
   "scripts": {
     "lint": "tsdx lint src test",
     "build": "tsdx build",
@@ -22,31 +22,17 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@huskyswap/core": "^1.0.0",
-    "big.js": "^5.2.2",
-    "decimal.js-light": "^2.5.0",
-    "jsbi": "^3.1.1",
+    "@ethersproject/address": "^5.0.0",
+    "@ethersproject/solidity": "^5.0.0",
+    "@uniswap/sdk-core": "^3.0.0-alpha.3",
     "tiny-invariant": "^1.1.0",
-    "tiny-warning": "^1.0.3",
-    "toformat": "^2.0.0"
-  },
-  "peerDependencies": {
-    "@ethersproject/address": "^5.0.0-beta",
-    "@ethersproject/contracts": "^5.0.0-beta",
-    "@ethersproject/networks": "^5.0.0-beta",
-    "@ethersproject/providers": "^5.0.0-beta",
-    "@ethersproject/solidity": "^5.0.0-beta"
+    "tiny-warning": "^1.0.3"
   },
   "devDependencies": {
-    "@ethersproject/address": "^5.0.2",
-    "@ethersproject/contracts": "^5.0.2",
-    "@ethersproject/networks": "^5.0.2",
-    "@ethersproject/providers": "^5.0.5",
-    "@ethersproject/solidity": "^5.0.2",
     "@types/big.js": "^4.0.5",
     "@types/jest": "^24.0.25",
-    "babel-plugin-transform-jsbi-to-bigint": "^1.3.1",
-    "tsdx": "^0.12.3"
+    "@huskyswap/core": "1.0.0",
+    "tsdx": "^0.14.1"
   },
   "engines": {
     "node": ">=10"
