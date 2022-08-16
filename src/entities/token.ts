@@ -92,32 +92,18 @@ export const WETH = {
     'WETH',
     'Wrapped Ether'
   ),
-  [ChainId.BSC_MAINNET]: new Token(
-    ChainId.BSC_MAINNET,
-    '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
-    18,
-    'WBNB',
-    'Wrapped BNB'
-  ),
-  [ChainId.BSC_TESTNET]: new Token(
-    ChainId.BSC_TESTNET,
-    '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd',
-    18,
-    'WBNB',
-    'Wrapped BNB'
-  ),
-  [ChainId.HARMONY_MAINNET]: new Token(
-    ChainId.HARMONY_MAINNET,
+  [ChainId.DOGECHAIN_MAINNET]: new Token(
+    ChainId.DOGECHAIN_MAINNET,
     '0xcF664087a5bB0237a0BAd6742852ec6c8d69A27a',
     18,
-    'WONE',
-    'Wrapped ONE'
+    'WDOGE',
+    'Wrapped DOGE'
   ),
-  [ChainId.HARMONY_TESTNET]: new Token(
-    ChainId.HARMONY_TESTNET,
+  [ChainId.DOGECHAIN_TESTNET]: new Token(
+    ChainId.DOGECHAIN_TESTNET,
     '0x7466d7d0C21Fa05F32F5a0Fa27e12bdC06348Ce2',
     18,
     'WONE',
-    'Wrapped ONE'
+    'Wrapped DOGE'
   )
 }

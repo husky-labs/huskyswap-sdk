@@ -16,7 +16,7 @@ export class Currency {
   /**
    * The ETHER instance of the base class `Currency`.
    */
-  public static readonly ETHER: Currency = new Currency(18, 'WDOGE', 'Wrapped Doge')
+  public static readonly ETHER: Currency = new Currency(18, 'WDOGE', 'Wrapped DOGE')
 
   /**
    * Constructs an instance of the base class `Currency`. The only instance of the base class `Currency` is `Currency.ETHER`.
@@ -34,8 +34,6 @@ export class Currency {
 }
 
 const ETHER = Currency.ETHER
-const HARMONY = Currency.HARMONY
-const BINANCE_COIN = Currency.BINANCE_COIN
-const DEFAULT_CURRENCIES = [ETHER, HARMONY, BINANCE_COIN]
+const DEFAULT_CURRENCIES = [ETHER]
 
-export { ETHER, HARMONY, BINANCE_COIN, DEFAULT_CURRENCIES }
+export { ETHER, DEFAULT_CURRENCIES }
