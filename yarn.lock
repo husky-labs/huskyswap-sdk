@@ -1155,10 +1155,10 @@
     "@ethersproject/properties" "^5.1.0"
     "@ethersproject/strings" "^5.1.0"
 
-"@huskyswap/core@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@huskyswap/core/-/core-1.0.0.tgz#f054a7dd79feaa193418b3667a69b219ee57d3ae"
-  integrity sha512-OPFpd2jMCpdGNFk4yxQceWTI2pG8dLO7oiIn8DfKyrvi4AtVGI2KaFN4kk4+Kc8PoQTjreQSWR1WSMMvqmORWQ==
+"@huskyswap/core@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@huskyswap/core/-/core-1.0.1.tgz#87598c042400f51a78ad0e556a9bf524c8ace7c4"
+  integrity sha512-5KJSZNVDQpGnir15aE0XKHnJN8aMahwZpF/hZrYU7+O5H2bFefjyw1w9+tsu1WMoYJ120ipRWLZ3eOGYN/RzEQ==
 
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"

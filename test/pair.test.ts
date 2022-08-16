@@ -17,10 +17,10 @@ describe('Pair', () => {
 
   describe('#getAddress', () => {
     it('returns the correct address for Ethereum Mainnet', () => {
-      expect(Pair.getAddress(USDC, DAI)).toEqual('0x7dEE7B755F06C8F6408Bcbc1B9517597bF028e2E')
+      expect(Pair.getAddress(USDC, DAI)).toEqual('0xb74111F9101a3fbFbcC1ed7f326E7466847CBEF2')
     })
     it('returns the correct address for Dogechain Testnet', () => {
-      expect(Pair.getAddress(DOGECHAIN_TESTNET_WWDOGE, DOGECHAIN_TESTNET_DCV)).toEqual('0x81244a2a2423F13d14D76956920b00c3E9459648')
+      expect(Pair.getAddress(DOGECHAIN_TESTNET_WWDOGE, DOGECHAIN_TESTNET_DCV)).toEqual('0x3379674a0fBcef00a22938Fd520cCd8169f6B18B')
     })
   })
 
